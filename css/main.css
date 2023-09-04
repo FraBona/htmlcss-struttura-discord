@@ -33,6 +33,13 @@
   align-items: center;
 }
 
+.fifth-block{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .container{
   min-width: 1200px;
@@ -54,7 +61,6 @@
 .col-1{
   flex-basis: 100%;
   min-height: 200px;
-  min-width: 980px;
 }
 
 .col-3{
@@ -83,6 +89,11 @@
 
 .col-second-block{
   border: 2px dotted black;
+}
+
+.col-1-fifth{
+  flex-basis: 100%;
+  min-height: 400px;
 }
 
 
@@ -144,4 +155,11 @@
   border: 2px dotted black;
   color: white;
   font-weight: 700;
+}
+
+.debug .col-1-fifth{
+  min-height: 400px;
+  padding: 10px;
+  background-color: pink;
+  border: 2px dotted black;
 }
