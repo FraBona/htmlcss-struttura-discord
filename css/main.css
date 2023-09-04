@@ -29,14 +29,20 @@
 
 
 .container{
-  background-color: pink;
-  max-width: 1200px;
+  min-width: 1200px;
   margin: 10px;
+}
+
+.container-bg-pink{
+  min-width: 980px;
+  margin: 10px;
+  background-color: pink;
 }
 
 .row{
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .col-1{
@@ -89,7 +95,6 @@
 
 .debug .container{
   padding: 10px;
-  border: 2px solid black;
 }
 
 /*.debug .struct-header{
@@ -111,6 +116,13 @@
   min-height: 200px;
   padding: 10px;
   background-color: cadetblue;
+  border: 2px dotted black;
+}
+
+.debug .col-25{
+  min-height: 200px;
+  padding: 10px;
+  background-color: pink;
   border: 2px dotted black;
 }
 
