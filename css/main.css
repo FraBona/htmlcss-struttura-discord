@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.site-wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+
+.main-content{
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.page-footer{
+  
+  top: 100%;
+}
+
+
+
+/* DEBUG */
+
+.debug .page-header,
+.debug .page-footer{
+  padding: 20px;
+  background-color: chartreuse;
+  min-height: 80px;
+}
+
+.debug .main-content{
+  min-height: 600px;
+  padding: 10px;
+  border: 2px solid black;
+}
