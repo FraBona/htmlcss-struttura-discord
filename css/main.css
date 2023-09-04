@@ -40,6 +40,13 @@
   align-items: center;
 }
 
+.sixth-block{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .container{
   min-width: 1200px;
@@ -94,6 +101,14 @@
 .col-1-fifth{
   flex-basis: 100%;
   min-height: 400px;
+}
+
+.col-32{
+  flex-basis: calc(100% / 3);
+}
+
+.col-16{
+  flex-basis: calc(100% / 6);
 }
 
 
@@ -161,5 +176,19 @@
   min-height: 400px;
   padding: 10px;
   background-color: pink;
+  border: 2px dotted black;
+}
+
+.debug .col-32{
+  min-height: 400px;
+  padding: 10px;
+  background-color: pink;
+  border: 2px dotted black;
+}
+
+.debug .col-16{
+  min-height: 400px;
+  padding: 10px;
+  background-color: cadetblue;
   border: 2px dotted black;
 }
